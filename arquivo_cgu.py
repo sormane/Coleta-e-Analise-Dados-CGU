@@ -65,6 +65,6 @@ os.system('unzip -o //diretorio/meu_diretorio/%s/%s_favorecidos.zip -d //diretor
 #SCP arquivos .csv para servidor que irá consumir
 
 os.system('scp //diretorio/meu_diretorio/%s/%s_Despesas_Pagamento.csv root@ip://diretorio/meu_diretorio/' % (df_list[0][1], df_list[0][1]))
-os.system('scp //diretorio/meu_diretorio/%s/202102_CNPJ.csv root@192.168.24.11://diretorio/meu_diretorio/' % (df_list[0][1]))
-os.system('scp //diretorio/meu_diretorio/%s/202102_CNAE.csv root@192.168.24.11://diretorio/meu_diretorio/' % (df_list[0][1]))
+os.system('scp //diretorio/meu_diretorio/%s/202102_CNPJ.csv root@ip://diretorio/meu_diretorio/' % (df_list[0][1]))
+os.system('scp //diretorio/meu_diretorio/%s/202102_CNAE.csv root@ip://diretorio/meu_diretorio/' % (df_list[0][1]))
 os.system('scp //diretorio/meu_diretorio/%s/202102_NaturezaJuridica.csv root@ip://diretorio/meu_diretorio/' % (df_list[0][1]))
