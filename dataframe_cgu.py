@@ -47,9 +47,13 @@ os.system('unzip /arquivos_hd/Pessoal/projetos/cgu/arquivo/' + file + ' -d /arqu
 
 dataframe = pd.read_csv('/arquivos_hd/Pessoal/projetos/cgu/arquivo/' + str(data_atual) + '_Despesas_Pagamento.csv', sep=';')
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 8d8771a (comitando alterações no código)
+=======
+
+>>>>>>> 1d6f69a (Alterando trecho dataframe)
 dataframe
 
 # if curl == '200':
