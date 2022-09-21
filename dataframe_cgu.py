@@ -46,7 +46,10 @@ time.sleep(5)
 os.system('unzip /arquivos_hd/Pessoal/projetos/cgu/arquivo/' + file + ' -d /arquivos_hd/Pessoal/projetos/cgu/arquivo/')
 
 dataframe = pd.read_csv('/arquivos_hd/Pessoal/projetos/cgu/arquivo/' + str(data_atual) + '_Despesas_Pagamento.csv', sep=';')
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8d8771a (comitando alterações no código)
 dataframe
 
 # if curl == '200':
